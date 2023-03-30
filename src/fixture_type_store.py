@@ -2,6 +2,7 @@
 
 import math
 
+
 class FixtureTypeStore:
     """Stores the fixture types from which to map the dmx data"""
 
@@ -16,6 +17,38 @@ class FixtureTypeStore:
 
     # TODO: load these from a public store or provide a UI to edit them
     _fixture_types = {
+        "ledbar": {
+            "colorMode": "rgbw",
+            "red": 0,
+            "green": 1,
+            "blue": 2,
+            "white": 255,
+            "pan": 255,
+            "tilt": 255,
+            "zoom": 255,
+            "dimmer": 255,
+            "panRange": 623,
+            "tiltRange": 295,
+            "minZoom": 7,
+            "maxZoom": 50,
+            "lumens": 5085
+        },
+        "dimmer": {
+            "colorMode": "rgbw",
+            "red": 4,
+            "green": 6,
+            "blue": 8,
+            "white": 0,
+            "pan": 1,
+            "tilt": 2,
+            "zoom": 15,
+            "dimmer": 0,
+            "panRange": 623,
+            "tiltRange": 295,
+            "minZoom": 7,
+            "maxZoom": 50,
+            "lumens": 5085
+        },
         "wash": {
             "colorMode": "rgbw",
             "red": 4,
