@@ -26,32 +26,12 @@ class FixtureTypeStore:
             "red": 0,
             "green": 1,
             "blue": 2,
-            "white": 255,
-            "pan": 255,
-            "tilt": 255,
-            "zoom": 255,
-            "dimmer": 255,
-            "panRange": 623,
-            "tiltRange": 295,
-            "minZoom": 7,
-            "maxZoom": 50,
-            "lumens": 5085
+            "white": 3
         },
         "dimmer": {
-            "colorMode": "rgbw",
-            "red": 4,
-            "green": 6,
-            "blue": 8,
-            "white": 0,
-            "pan": 1,
-            "tilt": 2,
-            "zoom": 15,
+            "colorMode": "dimmer",
             "dimmer": 0,
-            "panRange": 623,
-            "tiltRange": 295,
-            "minZoom": 7,
-            "maxZoom": 50,
-            "lumens": 5085
+            "lumens": 41000
         },
         "wash": {
             "colorMode": "rgbw",
